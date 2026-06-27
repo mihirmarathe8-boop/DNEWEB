@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("Assets/Ramayana.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.dneg{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 140px;
+    font-size: medium;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    color: white;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    position: absolute;
+    top: 45px;
+    right: 90px;
+}
+
+.Departments{
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+
+.Departments a{
+    display: block;
+    text-decoration: none;
+    color: #f5f3eb;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+
+    line-height: 1.05;
+    margin-bottom: 15px;
+
+    transition: 0.3s;
+}
+
+.Departments a:hover{
+    opacity: 0.7;
+}
+
+.Identity{
+    color: white;
+    bottom: 40px;
+    right: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.bi{
+    font-size: 20px;
+}
+
+.container2{
+    width:100%;
+    min-height:100vh;
+    background:whitesmoke;
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items: normal;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.text1{
+    font-size:55px;
+    margin-left: 70px;
+    color:black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+}
+
+.worm{
+    position: absolute;
+    left: 0px;     
+    top: 320px;      
+    height: auto;
+    width: 100%;
+}
+
+.right{
+    width: 38%;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #222;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+}
+
+.footer{
+    background: #111;
+    color: #f5f3eb;
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.footer-center{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-center a{
+    color: #f5f3eb;
+    text-decoration: none;
+}
+
+.footer-center a:hover{
+    opacity: 0.7;
+}
+
+.footer-right img{
+    width: 90px;
+    height: auto;
+}
